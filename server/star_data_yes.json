@@ -1,0 +1,16 @@
+{
+	"stars": [ 
+		{
+		
+            "id": "01",
+			"latitude": "-80",
+			"longitude": "-84"
+		}, 
+		{
+            "id": "02", 
+			"latitude": "-30",
+			"longitude": "-14"
+		}
+
+    ]
+}
