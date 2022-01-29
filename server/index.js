@@ -14,13 +14,16 @@ app.use(
 const db = require('./models');
 
 // Routers
+const resultsRouter = require('./routes/results');
 
 // TODO:
 
 /**
  * Routes for Nearby Objects
  */
+app.get('/results/loc', resultsRouter.result);
 
+// for debugging
 console.log(
   `Server running at http://${config.development.server_host}:${config.development.server_port}`
 );

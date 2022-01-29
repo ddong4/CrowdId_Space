@@ -1,4 +1,4 @@
-const videoPageData = {
+const landingPageData = {
   // TODO:
 };
 
