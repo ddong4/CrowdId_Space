@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const mysql = require('mysql2');
+// const mysql = require('mysql2');
 const config = require('./config/config.json');
 const app = express();
 
@@ -11,7 +11,8 @@ app.use(
     origin: '*'
   })
 );
-const db = require('./models');
+// for future database integration
+// const db = require('./models');
 
 // Routers
 const resultsRouter = require('./routes/results');

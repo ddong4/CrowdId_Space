@@ -1,0 +1,14 @@
+{
+    "development": {
+      "server_host": "127.0.0.1",
+      "server_port":"3001"
+    },
+    "test": {
+      "server_host": "127.0.0.1",
+      "server_port":"3001"
+    },
+    "production": {
+      "server_host": "127.0.0.1",
+      "server_port":"3001"
+    }
+  }

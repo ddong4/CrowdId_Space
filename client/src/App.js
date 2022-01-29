@@ -9,7 +9,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/" exact component={LandingPage} />
-          <Route path="/survey" exact component={VideoPage} />
+          <Route path="/video" exact component={VideoPage} />
         </Switch>
       </Router>
     </div>

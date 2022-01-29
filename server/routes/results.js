@@ -1,17 +1,17 @@
 const express = require('express');
-const mysql = require('mysql2');
+// const mysql = require('mysql2');
 const config = require('../config/config.json');
 const router = express.Router();
 
-// TODO: set up mysql database
-const connection = mysql.createConnection({
-  host: config.development.host,
-  user: config.development.username,
-  password: config.development.password,
-  port: config.development.rds_port,
-  database: config.development.database
-});
-connection.connect();
+// Future TODO: set up mysql database
+// const connection = mysql.createConnection({
+//   host: config.development.host,
+//   user: config.development.username,
+//   password: config.development.password,
+//   port: config.development.rds_port,
+//   database: config.development.database
+// });
+// connection.connect();
 
 /**
  * Result Object Nearby Routes
