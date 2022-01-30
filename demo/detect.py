@@ -39,12 +39,12 @@ class Detect:
 
         top_left = []
 
-        # apply thresholding to make sure if the dot is actually there (maybe it disappears)
-        if max_val >= threshold:
+        loc = np.where( result >= (max_val-0.05))
+
+        for top_left in zip(*loc[::-1]):
             print('Found dot.')
 
             # get dimensions of rect
-            top_left = max_loc
             bottom_right = (top_left[0] + self.img_width, top_left[1] + self.img_height)
             # draw rectangle around the pinball
             cv.rectangle(img, top_left, bottom_right,
