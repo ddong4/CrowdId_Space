@@ -1,4 +1,4 @@
-# Crowded_Space
+# CrowdId.Space
 
 Part of [Johnson Space Center Hackathon (JSC Hack) Jan 28-30 2022](https://jsc-hack.github.io/)
 
@@ -8,10 +8,13 @@ Part of [Johnson Space Center Hackathon (JSC Hack) Jan 28-30 2022](https://jsc-h
 - Angela Fan
 - Taylor Hou
 - Chantal Nyiramwiza
+- Abdurrahman Padela
 
 ## Project Description
 
-TODO
+We currently only track space debris that is big enough to be tracked. Orbits are updated only when someone is paying attention, and there are not enough “eyes” that are looking for debris, let alone care.
+
+We propose a real-time AR mobile game to track space objects together, powered by AI/ML.
 
 ## Start Development Container
 
