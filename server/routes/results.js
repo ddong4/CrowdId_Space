@@ -21,7 +21,7 @@ async function result(req, res) {
   // I will give the data as a string req="-80,-80"
  //read json
  let response = await fetch('/server/test_data/star_data_yes.json');
- let user = await response.json(); 
+ let ret = await response.json(); 
  //call helper function
   ret = parseReq(req); 
 //res.json()
